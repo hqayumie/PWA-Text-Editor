@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8' />
+    <title> Coding Quiz</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+</head>
+
+<body>
+<section class="Slide-deck-1">
+    <header>Coding Quiz Challenge</header>
+    <p id="first-paragraph"> Try to complete the questions provided in the time limit!
+        Keep in mind that incorrect answers will penalize your time by 15 seconds!
+        You have 80 seconds to answer the questions, good luck!</p>
+    <button id="start-quiz">Start Quiz</button>
+</section>
+<p  class="time" style="text-align:right;"></p>
+<div id="main"></div>
+<section id="highscore-form" style="text-align:center">
+    <h1> All Done!</h1>
+    <form method="POST">
+        <label for="your-score"> Your high Score</label>
+        <input type="text" name="your-score" placeholder="Your Initials here..."/>
+    </form>
+    <p>High scores:  <span id="high-score">0</span></p>
+    <ul id="score-list"></ul>
+    <button id="save">save</button>
+</section>
+<footer id="footer-message" style="text-align:center;"></footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
